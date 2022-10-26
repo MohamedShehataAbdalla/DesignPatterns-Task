@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use Creational\AbstractFactory\BenzCar;
-use Creational\AbstractFactory\BMWCar;
-use Creational\AbstractFactory\CarAbstractFactory;
+use Creational\AbstractFactory\CarAbstractFactory\BenzCar;
+use Creational\AbstractFactory\CarAbstractFactory\BMWCar;
+use Creational\AbstractFactory\CarAbstractFactory\CarAbstractFactory;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactory extends TestCase
