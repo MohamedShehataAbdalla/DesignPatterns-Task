@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc4146c-9eb1-4ab5-a644-e89ea8889eb4" name="Changes" comment="" />
+    <list default="true" id="3fc4146c-9eb1-4ab5-a644-e89ea8889eb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/BMWBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/BenzBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/CarBuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/CarProducer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/Models/BMWCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/Models/BenzCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilder/Models/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Pool/CarPool/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Pool/CarPool/CarPool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CarBuilder.test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CarPoolTest.test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CarFactoryMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CarFactoryMethod.test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,46 +101,46 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="PHPUnit.CarFactoryMethod.testCanBuildBenzBrand">
-    <configuration name="AbstractFactory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\AbstractFactory" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/AbstractFactory.test.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.CarPoolTest.testCanFreeCar">
     <configuration name="AbstractFactoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$/Tests" />
       <method v="2" />
     </configuration>
-    <configuration name="AbstractFactory.testCanCreateBenzCar" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\AbstractFactory" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/AbstractFactory.test.php" method="testCanCreateBenzCar" scope="Method" use_alternative_configuration_file="true" />
+    <configuration name="CarBuilder" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\CarBuilder" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarBuilder.test.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CarFactoryMethod.testCanBuildBMWBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\CarFactoryMethod" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarFactoryMethod.php" method="testCanBuildBMWBrand" scope="Method" />
+    <configuration name="CarBuilder.testProduceBMWCar" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\CarBuilder" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarBuilder.test.php" method="testProduceBMWCar" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CarFactoryMethod.testCanBuildBenzBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\CarFactoryMethod" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarFactoryMethod.php" method="testCanBuildBenzBrand" scope="Method" />
+    <configuration name="CarBuilder.testProduceBenzCar" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\CarBuilder" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarBuilder.test.php" method="testProduceBenzCar" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="Singleton.testCanCreateGetInstance" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Singleton" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/Singleton.test.php" method="testCanCreateGetInstance" scope="Method" />
+    <configuration name="CarPoolTest.testCanFreeCar" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CarPoolTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarPoolTest.test.php" method="testCanFreeCar" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CarPoolTest.testCanRentCar" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CarPoolTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/Tests/CarPoolTest.test.php" method="testCanRentCar" scope="Method" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHPUnit.AbstractFactoryTest" />
-      <item itemvalue="PHPUnit.CarFactoryMethod.testCanBuildBMWBrand" />
-      <item itemvalue="PHPUnit.CarFactoryMethod.testCanBuildBenzBrand" />
-      <item itemvalue="PHPUnit.Singleton.testCanCreateGetInstance" />
-      <item itemvalue="PHPUnit.AbstractFactory" />
-      <item itemvalue="PHPUnit.AbstractFactory.testCanCreateBenzCar" />
+      <item itemvalue="PHPUnit.CarBuilder" />
+      <item itemvalue="PHPUnit.CarBuilder.testProduceBMWCar" />
+      <item itemvalue="PHPUnit.CarBuilder.testProduceBenzCar" />
+      <item itemvalue="PHPUnit.CarPoolTest.testCanFreeCar" />
+      <item itemvalue="PHPUnit.CarPoolTest.testCanRentCar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.CarFactoryMethod.testCanBuildBenzBrand" />
-        <item itemvalue="PHPUnit.CarFactoryMethod.testCanBuildBMWBrand" />
-        <item itemvalue="PHPUnit.Singleton.testCanCreateGetInstance" />
-        <item itemvalue="PHPUnit.AbstractFactory" />
-        <item itemvalue="PHPUnit.AbstractFactory.testCanCreateBenzCar" />
+        <item itemvalue="PHPUnit.CarPoolTest.testCanFreeCar" />
+        <item itemvalue="PHPUnit.CarPoolTest.testCanRentCar" />
+        <item itemvalue="PHPUnit.CarBuilder.testProduceBMWCar" />
+        <item itemvalue="PHPUnit.CarBuilder" />
+        <item itemvalue="PHPUnit.CarBuilder.testProduceBenzCar" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +161,7 @@
       <workItem from="1666131077377" duration="408000" />
       <workItem from="1666621278721" duration="20000" />
       <workItem from="1666621502994" duration="8358000" />
-      <workItem from="1666781626383" duration="4071000" />
+      <workItem from="1666781626383" duration="13259000" />
     </task>
     <servers />
   </component>
@@ -170,5 +185,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DesignPatterns_Task@CarBuilder_testProduceBMWCar.xml" NAME="CarBuilder.testProduceBMWCar Coverage Results" MODIFIED="1666799891452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
