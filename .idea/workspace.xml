@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc4146c-9eb1-4ab5-a644-e89ea8889eb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/CarAbstractFactory/BMWCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/CarAbstractFactory/BenzCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/CarAbstractFactory/CarAbstractFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/CarAbstractFactory/CarInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/AbstractButton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/AbstractFormFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/AbstractTextArea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/AbstractTextInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/AbstractWindow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FormAbstractFactory/WebForm/WebFormFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/BMWBrand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/BMWBrandFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/BenzBrand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/BenzBrandFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/BrandFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/FactoryMethod/CarFactoryMethod/CarBrandInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Singleton/AppSettingsSingleton/AppSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Singleton/AppSettingsSingleton/userClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/CarFactoryMethod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Singleton.test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/BMWCar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/BenzCar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/CarAbstractFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/CarInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/AbstractFactory.test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/AbstractFactory.test.php" afterDir="false" />
-    </list>
+    <list default="true" id="3fc4146c-9eb1-4ab5-a644-e89ea8889eb4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +146,7 @@
       <workItem from="1666131077377" duration="408000" />
       <workItem from="1666621278721" duration="20000" />
       <workItem from="1666621502994" duration="8358000" />
-      <workItem from="1666781626383" duration="3766000" />
+      <workItem from="1666781626383" duration="4071000" />
     </task>
     <servers />
   </component>
